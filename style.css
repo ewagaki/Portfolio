@@ -1,0 +1,129 @@
+:root {
+  --primarycolor: #000;
+}
+body {
+  font-family: monospace;
+}
+
+.info {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 80px;
+  font-family: "Philosopher", sans-serif;
+  color: #03031a;
+}
+h2 {
+  font-size: 48px;
+  text-transform: capitalize;
+  font-family: "Italianno", cursive;
+  color: #171791;
+  font-weight: 700;
+}
+h2.about {
+  font-size: 48px;
+  text-transform: capitalize;
+  font-family: "Italianno", cursive;
+  color: #171791;
+  font-weight: 700;
+}
+h3 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-family: "Italianno", cursive;
+  color: #171791;
+  font-weight: 400px;
+}
+p {
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+}
+p.about {
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+}
+
+.navigation-links {
+  margin-top: 50px;
+}
+.contact-link {
+  text-decoration: none;
+  border: 1px solid #000080;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
+  color: #fff;
+  background: #03031a;
+  transition: 5ms;
+}
+.contact-link:hover {
+  background: #000080;
+}
+.about-link {
+  text-decoration: none;
+  border: 1px solid #000080;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
+  color: #fff;
+  background: #000080;
+  transition: 5ms;
+}
+.about-link:hover {
+  background: #03031a;
+}
+h1.about-me {
+  font-size: 48px;
+  text-transform: capitalize;
+  font-family: "Philosopher", sans-serif;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 36px;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+}
+.primary-link {
+  text-decoration: none;
+  border: 1px solid #000080;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
+  color: #fff;
+  background: #000080;
+  transition: 5ms;
+}
+.primary-link:hover {
+  background: #03031a;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
